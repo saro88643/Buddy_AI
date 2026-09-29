@@ -1,0 +1,30 @@
+# Environment variables (contains secret API keys)
+.env
+*.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Database files
+*.db
+*.sqlite3
+
+# Temp & log files
+output.txt
+groq_models.txt
+models.json
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
